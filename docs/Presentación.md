@@ -1,2 +1,2 @@
 ### Hola 
-mi nombre es Juan Manuel Gaona Serrano 
+Mi nombre es Juan Manuel Gaona Serrano 
