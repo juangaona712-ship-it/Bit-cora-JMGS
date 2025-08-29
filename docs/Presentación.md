@@ -1,5 +1,12 @@
 ### HOLA :) 
-<img src="imgs/Multimedia.jpg"  width="300">
+![Diagrama del sistema](recursos/imgs/ibero.jpeg)
+
+<img src="../recursos/imgs/ibero.jpeg" alt="Diagrama del sistema" width="420">
+```
+
+![Diagrama del sistema](recursos/imgs/ibero.jpeg)
+
+<img src="../recursos/imgs/ibero.jpeg" alt="Diagrama del sistema" width="420">
 Mi nombre es Juan Manuel Gaona Serrano 
 Actualmente me encuentro en mi primer semestre de ingenieria mecatronica en la universidad ibero Puebla.
 
