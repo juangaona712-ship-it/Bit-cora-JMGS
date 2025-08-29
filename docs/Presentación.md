@@ -1,7 +1,7 @@
 # HOLA :) 
 
 
-![Diagrama del sistema](recursos/imgs/Multimedia(1).jpg)
+![Diagrama del sistema](recursos/imgs/mi_foto.jpg)
 
 Mi nombre es Juan Manuel Gaona Serrano 
 
