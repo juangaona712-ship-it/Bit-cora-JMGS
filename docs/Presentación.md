@@ -1,4 +1,4 @@
-# HOLA :) 
+# Presentación :) 
 
 
 ![Diagrama del sistema](recursos/imgs/mi_foto.jpg)
