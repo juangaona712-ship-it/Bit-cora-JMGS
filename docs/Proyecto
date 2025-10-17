@@ -1,20 +1,13 @@
-# 📚 Ejemplo de Documentación del Proyecto
+# 📚 Proyecto 1
 
-> Plantilla genérica para documentar proyectos académicos o de ingeniería.  
-> Copia y adapta las secciones según tu necesidad.
-
----
 
 ## 1) Resumen
 
-- **Nombre del proyecto:** _Mi Proyecto_  
-- **Equipo / Autor(es):** _Nombre(s)_  
-- **Curso / Asignatura:** _Nombre del curso_  
-- **Fecha:** _DD/MM/AAAA_  
-- **Descripción breve:** _Una o dos líneas que expliquen qué hace y por qué._
-
-!!! tip "Consejo"
-    Mantén este resumen corto (máx. 5 líneas). Lo demás va en secciones específicas.
+- **Nombre del proyecto:** _Conexion de ESP32_  
+- **Equipo / Autor(es):** _Juan Manuel Gaona Serrano_  
+- **Curso / Asignatura:** _Introducción a la mecatronica_  
+- **Fecha:** _13/09/2025_  
+- **Descripción breve:** _En este proyecto utilizamos un ESP32 para cargarle diferentes codigos y prender un led de diferentes formas, todo con el fin de aprender a utilizar la placa._
 
 ---
 
