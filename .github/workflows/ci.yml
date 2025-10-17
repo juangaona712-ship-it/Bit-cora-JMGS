@@ -1,4 +1,4 @@
-name: ci
+name: JuanMa
 on:
   push:
     branches:
