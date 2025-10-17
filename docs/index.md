@@ -1,5 +1,8 @@
 # Presentación
 
+<!-- Control de tamaño usando HTML (cuando se requiera) -->
+<img src="../recursos/imgs/mi_foto.jpg" alt="Diagrama del sistema" width="420">
+
 ![Diagrama del sistema](recursos/imgs/mi_foto.jpg)
 
 Mi nombre es Juan Manuel Gaona Serrano 
