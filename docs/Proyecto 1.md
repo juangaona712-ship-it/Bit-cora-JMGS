@@ -69,7 +69,5 @@ Serial.println("OFF");
 ```
 Se cargo este código a la placa ESP32 donde colocamos un botón para prender el led usando un botón.
 
-[Video de la conexión][doc-ref]
-
-[doc-ref]: [https://www.iberopuebla.mx//docs](https://iberopuebla.sharepoint.com/:v:/r/sites/Section_11192A-O25/Student%20Work/Submitted%20files/GAONA%20SERRANO%20JUAN%20MANUEL/MCU%20101/VID_20250912_103243_800.mp4?csf=1&web=1&e=nxHvu2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJ0ZWFtcyIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiIwN2ZjODI0My1iOWQ5LTQ4MTgtYWM0NC0wZDE2YjQxYjExYmQifX0%3D) "Uso"
+[Video Uso del programa][(https://iberopuebla.sharepoint.com/:v:/r/sites/Section_11192A-O25/Student%20Work/Submitted%20files/GAONA%20SERRANO%20JUAN%20MANUEL/MCU%20101/VID_20250912_103243_800.mp4?csf=1&web=1&e=nxHvu2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJ0ZWFtcyIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiIwN2ZjODI0My1iOWQ5LTQ4MTgtYWM0NC0wZDE2YjQxYjExYmQifX0%3D)]
 
