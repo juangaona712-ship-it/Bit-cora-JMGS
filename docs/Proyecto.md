@@ -13,55 +13,60 @@
 
 ## 2) Objetivos
 
-- **General:** _Qué se pretende lograr en términos amplios._
+- **General:** _Conectar la placa con un celular usando una señal de bluetooth._
 - **Específicos:**
-  - _OE1…_
-  - _OE2…_
-  - _OE3…_
+  - _Codigo de conexión bluetooth_
+  - _Uso de la placa ESP32_
+  - _Cargar codigo a placa_
 
 ## 3) Alcance y Exclusiones
 
-- **Incluye:** _Qué funcionalidades/entregables sí están en el proyecto._
-- **No incluye:** _Qué queda fuera para evitar malentendidos._
+- **Incluye:** _Codigo para conectar la placa al celular._
+- **No incluye:** _La conexión del led en la protoboard._
 
 ---
 
 ## 4) Requisitos
 
 **Software**
-- _SO compatible (Windows/Linux/macOS)_
-- _Python 3.x / Node 18+ / Arduino IDE / etc._
-- _Dependencias (p. ej., pip/requirements, npm packages)_
+- _Phyton_
+- _Serial Bluetooth Terminal._
 
 **Hardware (si aplica)**
-- _MCU / Sensores / Actuadores / Fuente de poder_
-- _Herramientas (multímetro, cautín, etc.)_
+- _ESP32_
+- _Foco led_
+- _Protoboard_
+- _Resistencia de 220_
 
 **Conocimientos previos**
-- _Programación básica en X_
+- _Programación básica_
 - _Electrónica básica_
-- _Git/GitHub_
 
 ---
 
 ## 5) Instalación
 
 ```bash
-# 1) Clonar
-git clone https://github.com/<usuario>/<repo>.git
-cd <repo>
 
-# 2) (Opcional) Crear entorno virtual
-python -m venv .venv
-# macOS/Linux
-source .venv/bin/activate
-# Windows (PowerShell)
-.venv\Scripts\Activate.ps1
-
-# 3) Instalar dependencias (ejemplos)
-pip install -r requirements.txt
-# o, si es Node:
-npm install
+ich_sep12a ino
+const int led - 13;
+const int btn = 12;
+void setup() {
+//inicio la concat
+Serial.begin(115200);
+pinMode(led, OUTPUT);
+pinMode(btn, INPUT);
+void loop() {
+int estado digitalRead(btn);
+if (estado 1) (
+digitalWrite(led, 1);
+Serial.println("ON");
+} else {
+digitalWrite(led, 0);
+Serial.println("OFF");
 
 
 ```
+Se cargo este código a la placa ESP32 donde colocamos un botón para prender el led usando un botón.
+
+https://iberopuebla.sharepoint.com/:v:/r/sites/Section_11192A-O25/Student%20Work/Submitted%20files/GAONA%20SERRANO%20JUAN%20MANUEL/MCU%20101/VID_20250912_103243_800.mp4?csf=1&web=1&e=nxHvu2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJ0ZWFtcyIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiIwN2ZjODI0My1iOWQ5LTQ4MTgtYWM0NC0wZDE2YjQxYjExYmQifX0%3D 
