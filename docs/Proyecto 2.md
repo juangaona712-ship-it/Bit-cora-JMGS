@@ -6,7 +6,7 @@
 - **Nombre del proyecto:** _Uso de motores y servomotres_  
 - **Equipo / Autor(es):** _Juan Manuel Gaona Serrano_  
 - **Curso / Asignatura:** _Introducción a la mecatronica_  
-- **Fecha:** _13/09/2025_  
+- **Fecha:** _26/09/2025_  
 - **Descripción breve:** _En este proyecto utilizamos motores y servomotores para poder controlarlos._
 
 ---
@@ -152,3 +152,89 @@ delay (400)
 Con este código se logra acelerar y desacelerar de un lado a otro usando un motor.
 
 [Video Uso del programa](https://iberopuebla.sharepoint.com/:v:/r/sites/Section_11192A-O25/Student%20Work/Submitted%20files/GAONA%20SERRANO%20JUAN%20MANUEL/VIdeos%20de%20Actuadores/VID_20250926_100814_770%203.mp4?csf=1&web=1&e=KVkg29&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJ0ZWFtcyIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJ2aWRlb2FjdGlvbnMtc2hhcmUiLCJyZWZlcnJhbFBsYXliYWNrU2Vzc2lvbklkIjoiNzUzZGFlYTAtYWY3OS00ODU4LWE4NDMtYTNhZTY5NzUxZWE1In19)
+
+```bash
+ ep26d.ino
+
+ESP32 Wrover Module
+
+/Control de 1 solo motor/
+
+#define pwm 12 //Definicion de pin de Velocidad
+
+int duty = 0;
+
+int grados = theta
+
+int aumento = 0;
+
+void setup() {
+
+}
+
+/Declarar Pines Como salida/
+
+/*Configuracion de pin PWM
+
+Se conecta al pin 12(pwm)
+
+- Frecuencia de 50hz
+
+Resolucion de 12 bit (0-4096)
+
+Canal 8
+
+ledcAttachChannel (pwm, 50, 12, 0);
+
+Serial.begin(115200);
+
+void loop() {
+
+/*
+
+Servo trabaja del 5% al ~10% del total
+
+(- 5)% - 0 deg
+
+(- 16)% - 180 deg
+
+5% de 4096 = 204.8
+
+10% de 4 theta96=4 theta9.6
+
+for(int i = 0 i <= 180 ; i +=10) {
+
+aumento = i;
+
+grados=0;
+
+duty map(grados, 0, 180, 205, 410);
+
+Serial.print("Pos: ");
+
+Serial.println(duty);
+
+ledcWrite(pwm, duty);
+
+delay(500);
+
+duty map(aumento, 0, 180, 205, 410);
+
+Serial.print("Pos: ");
+
+Serial.println(duty);
+
+Serial.println(aumento);
+
+ledcWrite(pwm, duty);
+
+delay(500);
+
+}
+
+}
+
+```
+Este código fue utilizado para controlar un servomotor, su función es avanzar 10 grados y regresar a 0, avanzar otros 10 y regresar a 0 y así sucesivamente.
+
+[Video Uso del programa](https://iberopuebla.sharepoint.com/:v:/r/sites/Section_11192A-O25/Student%20Work/Submitted%20files/GAONA%20SERRANO%20JUAN%20MANUEL/VIdeos%20de%20Actuadores/VID_20250926_104907_926%203.mp4?csf=1&web=1&e=nHLVsm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJ0ZWFtcyIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJ2aWRlb2FjdGlvbnMtc2hhcmUiLCJyZWZlcnJhbFBsYXliYWNrU2Vzc2lvbklkIjoiYzRkMzU1YjItYzJlNy00NWM4LThmNGYtOWY2MWNhMTNjOGY4In19)
