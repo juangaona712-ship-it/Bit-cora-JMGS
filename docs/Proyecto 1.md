@@ -71,3 +71,34 @@ Se cargo este código a la placa ESP32 donde colocamos un botón para prender el
 
 [Video Uso del programa](https://iberopuebla.sharepoint.com/:v:/r/sites/Section_11192A-O25/Student%20Work/Submitted%20files/GAONA%20SERRANO%20JUAN%20MANUEL/MCU%20101/VID_20250912_103243_800.mp4?csf=1&web=1&e=nxHvu2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJ0ZWFtcyIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiIwN2ZjODI0My1iOWQ5LTQ4MTgtYWM0NC0wZDE2YjQxYjExYmQifX0%3D)
 
+```bash
+
+const int LED = 13;
+#include "BluetoothSerial.h"
+BluetoothSerial SerialBT;
+
+void setup() {
+}
+
+pinMode (13,OUTPUT);
+Serial.begin(115200);
+SerialBT.begin("ESP32juans"); // Nombre del dispositivo Bluetooth
+
+void loop() {
+if (SerialBT.available()) {
+String mensaje SerialBT.readString();
+Serial.println("Recibido:" + mensaje);
+if (mensaje == "1") {
+}
+
+digitalWrite(LED, HIGH);
+
+else {
+digitalWrite(LED, LOW);
+delay(1000);
+}
+
+```
+Este código fue el que se usó para conectar la placa con el celular usando bluetooth, una vez cargado el código se instaló la aplicación Serial Bluetooth Terminal en un dispositivo android y simplemente se hicieron las conexiones de acuerdo a los pines, se vinculó el dispositivo con el nombre que se le dio en el código en el caso juans y se mandó un 1 o un 0 para prender o apagar el led.
+
+[Video Uso del programa](https://iberopuebla.sharepoint.com/:v:/r/sites/Section_11192A-O25/Student%20Work/Submitted%20files/GAONA%20SERRANO%20JUAN%20MANUEL/MCU%20101/VID-20250913-WA0034.mp4?csf=1&web=1&e=OI8nyl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJ0ZWFtcyIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJ2aWRlb2FjdGlvbnMtc2hhcmUiLCJyZWZlcnJhbFBsYXliYWNrU2Vzc2lvbklkIjoiYTJiOTZlOTQtMjM1NC00M2ZlLWE0MWUtZWY5ZjU1NjM0NTFkIn19)
