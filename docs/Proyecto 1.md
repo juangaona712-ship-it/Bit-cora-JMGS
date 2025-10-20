@@ -3,7 +3,7 @@
 
 ## 1) Resumen
 
-- **Nombre del proyecto:** _Conexion de ESP32_  
+- **Nombre del proyecto:** _Conexión de ESP32_  
 - **Equipo / Autor(es):** _Juan Manuel Gaona Serrano_  
 - **Curso / Asignatura:** _Introducción a la mecatronica_  
 - **Fecha:** _13/09/2025_  
