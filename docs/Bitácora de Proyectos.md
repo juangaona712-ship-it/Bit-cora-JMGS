@@ -16,7 +16,7 @@ A continuación, se presentan los tres proyectos principales en los que estoy tr
 
 1. Conexión de ESP32
 
-[Proyecto 1](
+[Proyecto 1](docs/Proyecto 1.md)
 
 2.  Uso de motores y servomotres
 
