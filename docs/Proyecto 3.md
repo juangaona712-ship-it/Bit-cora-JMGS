@@ -544,6 +544,10 @@ Diseñamos el carro en solidwords dejando las medidas de las llantas y colocando
 
 [Paredes carro.DXF](https://iberopuebla-my.sharepoint.com/:u:/g/personal/204137_iberopuebla_mx/Ee6VNNM0-qxAm3DD7lYb6b8BdIyZ1gJzNXuHWEXGNgl2mA?e=WnICTr)
 
+![Base carro](recursos/imgs/base_carro.jpg)
+
 ### Video de resultado final 
 
 [Resultado final](https://iberopuebla-my.sharepoint.com/:v:/g/personal/204137_iberopuebla_mx/Ea5egYiSl6RBmgLrrm2d77UBn8WQOTbz9cZF5FC3e_s74g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=a7G7kG)
+
+![Base carro](recursos/imgs/Carro_final.jpg)
