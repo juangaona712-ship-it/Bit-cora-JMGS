@@ -12,9 +12,19 @@ Intereses: Robótica, electronica, automatización, programación, diseño e imp
 
 ## Proyectos en Curso
 
-A continuación, se presentan los tres proyectos principales en los que estoy trabajando o he completado. Haz clic en el título de cada proyecto para ver su repositorio dedicado (si existe).
+A continuación, se presentan los tres proyectos principales en los que estoy trabajando o he completado. Haz clic en el título de cada proyecto para ver su repositorio dedicado.
 
-1. 
+1. Conexión de ESP32
+
+[Proyecto 1](
+
+2.  Uso de motores y servomotres
+
+[Proyecto 2](
+
+3.  Carro con llantas omnidireccionales
+
+[Proyecto 3](
 
 ## Contacto
 
