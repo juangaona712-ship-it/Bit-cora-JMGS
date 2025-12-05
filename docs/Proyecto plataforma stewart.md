@@ -1,3 +1,5 @@
-###Proyecto plataforma stewart
-Este proyecto conciste en crear una plataforma que se autonivele basandonos en una plataforma "stewart" que se ocupan en la industria en general, la plataforma con ayuda de una camara y 3 servomotores nivela el espacio con el objetivo de evitar que la pelota se caiga.
-##Mecanismo de las piezas 
+# Proyecto plataforma stewart
+## General
+Este proyecto consiste en el desarrollo e implementación de una plataforma de autonivelación basada en la Plataforma Stewart. Este tipo de plataforma se utiliza en diversas industrias, como en simuladores de vuelo y posicionamiento de precisión.
+## Objetivo 
+## Mecanismo de las piezas 
